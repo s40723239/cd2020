@@ -14,11 +14,191 @@
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
 <h1>Assignment</h1>
-<h1>weeks</h1>
+<p><span>作業一:<br/><br/></span><span>1.請描述如何針對該課程進行有效的隨機分組，或者隨機進行點名？</span><br/><br/><span>2.描述如何為Windows 10 64位系統準備一個可移植的Python編程系統，以允許在Github上維護CMSiMDE網站，Pelican博客和js演示文稿？</span><br/><br/><span>3.您需要從</span><a href="http://www.coppeliarobotics.com/helpFiles/index.html">http://www.coppeliarobotics.com/helpFiles/index.html</a><span>了解什麼來實現四輪機器人？</span></p><h1>weeks</h1>
 <h2>week1~5</h2>
 <p>week1 創建倉儲</p>
-<p><span>登入自己的github帳號後，創建新的倉儲cd2020。<br/></span><span>3.進入要存放資料夾。<br/></span><span>4.輸入</span><span>git clone  <span>https://github.com/s40723239/cd2020複製<span>個人倉儲至資料夾</span><span>。</span></span><span><br/>5.輸入git submodule add https://github.com/mdecourse/cmsimde.git 取得子模組資料。<br/>6.進入cmsimde，輸入python -m pip install flask_cors 更改模組。<br/>7.完成後，python wsgi.py 開始編輯倉儲(login密碼為admin)。<br/>8.編輯完成後，git status<span><span> </span>&gt;</span><span> </span>git add .<span><span> </span>&gt;</span><span> </span>git commit -m "...."<span><span> </span>&gt;</span><span> </span>git push。</span></span></p>
-<h2><span><span>week6~9</span></span></h2>
-<h2><span><span>week10~14</span></span></h2>
-<h2><span><span>week15~18</span></span></h2>
+<p><span>登入自己的github帳號後，創建新的倉儲cd2020。<br/></span><span>3.進入要存放資料夾。<br/></span><span>4.輸入</span><span>git clone  <span>https://github.com/s40723239/cd2020複製<span>個人倉儲至資料夾</span><span>。</span></span><span><br/>5.輸入git submodule add https://github.com/mdecourse/cmsimde.git 取得子模組資料。<br/>6.進入cmsimde，輸入python -m pip install flask_cors 更改模組。<br/>7.完成後，python wsgi.py 開始編輯倉儲(login密碼為admin)。<br/>8.編輯完成後，git status<span><span> </span>&gt;</span><span> </span>git add .<span><span> </span>&gt;</span><span> </span>git commit -m "...."<span><span> </span>&gt;</span><span> </span>git push</span></span></p>
+<p><span><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/U8CUILw_H_Q" width="560"></iframe></span></span></p>
+<p><span><span>week2</span></span></p>
+<p style="text-align: left;"><span>1.在隨身系統下新增一個資料夾cd2020，並在cd2020下新建資料夾data，接著在data下新增資料夾py382及</span><span>wscite432、portablegit</span><span>。</span><br/><span>2.進入</span><a href="https://www.python.org/">Python</a><span>官網。</span><br/><span color="#808080">3.點選Downloads下的<a href="https://www.python.org/downloads/windows/">Windows</a>，並點選<a href="https://www.python.org/downloads/release/python-382/">Latest Python 3 Release - Python 3.8.2</a>。</span></p>
+<p style="text-align: left;"><span color="#808080"><span>4.找到</span><a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe">Windows x86-64 executable installer</a><span>並下載。</span></span></p>
+<p style="text-align: left;"><span color="#808080"><span>5.開始下載，必須將pip選項取消，接著按下next並將檔案下載至資料夾py382</span></span></p>
+<p><span>6.下載SciTE系統 <a href="https://www.scintilla.org/wscite432.zip">full 64-bit download</a>，下載完後解壓縮至data下的wscite432。</span></p>
+<p><span color="#000000"><span>7.建立新的start.bat及stop.bat。</span></span></p>
+<p><strong>start.bat:</strong></p>
+<div>
+<div class="syntaxhighlighter py" id="highlighter_317653">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+<div class="line number5 index4 alt2">5</div>
+<div class="line number6 index5 alt1">6</div>
+<div class="line number7 index6 alt2">7</div>
+<div class="line number8 index7 alt1">8</div>
+<div class="line number9 index8 alt2">9</div>
+<div class="line number10 index9 alt1">10</div>
+<div class="line number11 index10 alt2">11</div>
+<div class="line number12 index11 alt1">12</div>
+<div class="line number13 index12 alt2">13</div>
+<div class="line number14 index13 alt1">14</div>
+<div class="line number15 index14 alt2">15</div>
+<div class="line number16 index15 alt1">16</div>
+<div class="line number17 index16 alt2">17</div>
+<div class="line number18 index17 alt1">18</div>
+<div class="line number19 index18 alt2">19</div>
+<div class="line number20 index19 alt1">20</div>
+<div class="line number21 index20 alt2">21</div>
+<div class="line number22 index21 alt1">22</div>
+<div class="line number23 index22 alt2">23</div>
+<div class="line number24 index23 alt1">24</div>
+<div class="line number25 index24 alt2">25</div>
+<div class="line number26 index25 alt1">26</div>
+<div class="line number27 index26 alt2">27</div>
+<div class="line number28 index27 alt1">28</div>
+<div class="line number29 index28 alt2">29</div>
+<div class="line number30 index29 alt1">30</div>
+<div class="line number31 index30 alt2">31</div>
+<div class="line number32 index31 alt1">32</div>
+<div class="line number33 index32 alt2">33</div>
+<div class="line number34 index33 alt1">34</div>
+<div class="line number35 index34 alt2">35</div>
+<div class="line number36 index35 alt1">36</div>
+<div class="line number37 index36 alt2">37</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="py decorator">@echo</code> <code class="py plain">off</code></div>
+<div class="line number2 index1 alt1"><code class="py functions">set</code> <code class="py plain">Disk</code><code class="py keyword">=</code><code class="py plain">y</code></div>
+<div class="line number3 index2 alt2"><code class="py plain">subst </code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">: </code><code class="py string">"data"</code></div>
+<div class="line number4 index3 alt1"><code class="py spaces"> </code> </div>
+<div class="line number5 index4 alt2"><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:</code></div>
+<div class="line number6 index5 alt1"><code class="py spaces"> </code> </div>
+<div class="line number7 index6 alt2"><code class="py functions">set</code> <code class="py plain">HomePath</code><code class="py keyword">=</code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\home</code></div>
+<div class="line number8 index7 alt1"><code class="py functions">set</code> <code class="py plain">HomeDrive</code><code class="py keyword">=</code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\home</code></div>
+<div class="line number9 index8 alt2"><code class="py functions">set</code> <code class="py plain">Home</code><code class="py keyword">=</code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\home</code></div>
+<div class="line number10 index9 alt1"><code class="py functions">set</code> <code class="py plain">USERPROFILE</code><code class="py keyword">=</code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\home</code></div>
+<div class="line number11 index10 alt2"><code class="py spaces"> </code> </div>
+<div class="line number12 index11 alt1"><code class="py plain">REM 將系統 Python 程式的 io 設為 utf</code><code class="py keyword">-</code><code class="py value">8</code></div>
+<div class="line number13 index12 alt2"><code class="py functions">set</code> <code class="py plain">PYTHONIOENCODING</code><code class="py keyword">=</code><code class="py string">"utf-8"</code></div>
+<div class="line number14 index13 alt1"><code class="py spaces"> </code> </div>
+<div class="line number15 index14 alt2"><code class="py comments">#REM for putty</code></div>
+<div class="line number16 index15 alt1"><code class="py comments">#Set GIT_HOME=%CDisk%:\portablegit\bin\</code></div>
+<div class="line number17 index16 alt2"><code class="py comments">#Set GIT_SSH=%Disk%:\putty\plink.exe</code></div>
+<div class="line number18 index17 alt1"><code class="py spaces"> </code> </div>
+<div class="line number19 index18 alt2"><code class="py functions">set</code> <code class="py plain">PYTHONPATH</code><code class="py keyword">=</code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\py382\DLLs;</code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\py382\Lib;</code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\py382\Lib\site</code><code class="py keyword">-</code><code class="py plain">packages;</code></div>
+<div class="line number20 index19 alt1"><code class="py functions">set</code> <code class="py plain">PYTHONHOME</code><code class="py keyword">=</code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\py382</code></div>
+<div class="line number21 index20 alt2"><code class="py spaces"> </code> </div>
+<div class="line number22 index21 alt1"><code class="py functions">set</code> <code class="py plain">path_python</code><code class="py keyword">=</code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\py382;</code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\py382\Scripts;</code></div>
+<div class="line number23 index22 alt2"><code class="py functions">set</code> <code class="py plain">path_msys2</code><code class="py keyword">=</code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\msys64\mingw64\</code><code class="py functions">bin</code><code class="py plain">;</code></div>
+<div class="line number24 index23 alt1"><code class="py functions">set</code> <code class="py plain">path_git</code><code class="py keyword">=</code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\portablegit\</code><code class="py functions">bin</code><code class="py plain">;</code></div>
+<div class="line number25 index24 alt2"><code class="py functions">set</code> <code class="py plain">path_tcc</code><code class="py keyword">=</code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\tcc;</code></div>
+<div class="line number26 index25 alt1"><code class="py spaces"> </code> </div>
+<div class="line number27 index26 alt2"><code class="py plain">path</code><code class="py keyword">=</code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:;</code><code class="py keyword">%</code><code class="py plain">path_python</code><code class="py keyword">%</code><code class="py plain">;</code><code class="py keyword">%</code><code class="py plain">path_msys2</code><code class="py keyword">%</code><code class="py plain">;</code><code class="py keyword">%</code><code class="py plain">path_git</code><code class="py keyword">%</code><code class="py plain">;</code><code class="py keyword">%</code><code class="py plain">path_tcc</code><code class="py keyword">%</code><code class="py plain">;</code></div>
+<div class="line number28 index27 alt1"><code class="py spaces"> </code> </div>
+<div class="line number29 index28 alt2"><code class="py plain">start </code><code class="py keyword">/</code><code class="py functions">MIN</code> <code class="py plain">cmd.exe</code></div>
+<div class="line number30 index29 alt1"><code class="py plain">start </code><code class="py keyword">/</code><code class="py functions">MIN</code> <code class="py plain">cmd.exe</code></div>
+<div class="line number31 index30 alt2"><code class="py plain">start </code><code class="py keyword">/</code><code class="py functions">MIN</code> <code class="py plain">cmd.exe</code></div>
+<div class="line number32 index31 alt1"><code class="py plain">start </code><code class="py keyword">/</code><code class="py functions">MIN</code> <code class="py plain">cmd.exe</code></div>
+<div class="line number33 index32 alt2"><code class="py spaces"> </code> </div>
+<div class="line number34 index33 alt1"><code class="py plain">start </code><code class="py keyword">/</code><code class="py functions">MIN</code> <code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\wscite432\wscite\SciTE.exe</code></div>
+<div class="line number35 index34 alt2"><code class="py plain">start </code><code class="py keyword">/</code><code class="py functions">MIN</code> <code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">:\wscite432\wscite\SciTE.exe</code></div>
+<div class="line number36 index35 alt1"><code class="py spaces"> </code> </div>
+<div class="line number37 index36 alt2"><code class="py plain">Exit</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><strong><span color="#000000"><span><span>stop.bat:</span></span></span></strong></p>
+<div>
+<div class="syntaxhighlighter py" id="highlighter_370423">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+<div class="line number5 index4 alt2">5</div>
+<div class="line number6 index5 alt1">6</div>
+<div class="line number7 index6 alt2">7</div>
+<div class="line number8 index7 alt1">8</div>
+<div class="line number9 index8 alt2">9</div>
+<div class="line number10 index9 alt1">10</div>
+<div class="line number11 index10 alt2">11</div>
+<div class="line number12 index11 alt1">12</div>
+<div class="line number13 index12 alt2">13</div>
+<div class="line number14 index13 alt1">14</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="py decorator">@echo</code> <code class="py plain">off</code></div>
+<div class="line number2 index1 alt1"><code class="py functions">set</code> <code class="py plain">Disk</code><code class="py keyword">=</code><code class="py plain">y</code></div>
+<div class="line number3 index2 alt2"><code class="py plain">path</code><code class="py keyword">=</code><code class="py keyword">%</code><code class="py plain">PATH</code><code class="py keyword">%</code><code class="py plain">;</code></div>
+<div class="line number4 index3 alt1"><code class="py spaces"> </code> </div>
+<div class="line number5 index4 alt2"><code class="py plain">taskkill </code><code class="py keyword">/</code><code class="py plain">IM python.exe </code><code class="py keyword">/</code><code class="py plain">F</code></div>
+<div class="line number6 index5 alt1"><code class="py plain">taskkill </code><code class="py keyword">/</code><code class="py plain">IM pythonw.exe </code><code class="py keyword">/</code><code class="py plain">F</code></div>
+<div class="line number7 index6 alt2"><code class="py plain">taskkill </code><code class="py keyword">/</code><code class="py plain">IM scite.exe </code><code class="py keyword">/</code><code class="py plain">F</code></div>
+<div class="line number8 index7 alt1"><code class="py spaces"> </code> </div>
+<div class="line number9 index8 alt2"><code class="py plain">REM 終止虛擬硬碟與目錄的對應</code></div>
+<div class="line number10 index9 alt1"><code class="py plain">subst </code><code class="py keyword">%</code><code class="py plain">Disk</code><code class="py keyword">%</code><code class="py plain">: </code><code class="py keyword">/</code><code class="py plain">D</code></div>
+<div class="line number11 index10 alt2"><code class="py plain">REM 關閉 cmd 指令視窗</code></div>
+<div class="line number12 index11 alt1"><code class="py plain">taskkill </code><code class="py keyword">/</code><code class="py plain">IM cmd.exe </code><code class="py keyword">/</code><code class="py plain">F</code></div>
+<div class="line number13 index12 alt2"><code class="py spaces"> </code> </div>
+<div class="line number14 index13 alt1"><code class="py plain">EXIT</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>8.<span>下載MSYS2 </span><a class="button" href="http://repo.msys2.org/distrib/x86_64/msys2-x86_64-20190524.exe">msys2-x86_64-20190524.exe</a> 至data下。<br/>9.<span>下載PortableGit </span><a href="https://github.com/git-for-windows/git/releases/download/v2.25.1.windows.1/PortableGit-2.25.1-64-bit.7z.exe">64-bit Git for Windows Portable</a> 至 <span>portablegit下。<br/></span>10<span color="#000000"><span>.安裝pip，到</span></span><a href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a><span>頁面，另存新檔到data下。</span><br/>11.執行指令<span>，將python3.8.2版本缺少的模組下載下來。</span></p>
+<div>
+<div class="syntaxhighlighter py" id="highlighter_583434">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="py plain">python get</code><code class="py keyword">-</code><code class="py plain">pip.py</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div></div>
+<div>
+<div class="syntaxhighlighter py" id="highlighter_220325">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">2</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="py plain">pip install flask bs4 lxml pelican markdown flask_cors leo</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div><h2>week6~9</h2>
+<h2>week10~14</h2>
+<h2>week15~18</h2>
 <p></p>
