@@ -32,8 +32,7 @@
 <p><a href="https://www.coppeliarobotics.com/helpFiles/en/simulationPropertiesDialog.htm">Simulation settings dialog</a><strong>:</strong><br/>   在任何機器製作完成後，都需要進行模擬測試，以確保機器能正常運作，或者測試機器的耐用性及安全性。在這章節主要說明了如何建立模擬，也教了如何調整模擬的速度，這能使我們模擬起來更有效率，接著就是模擬對話框的基本操作，其中也講解了在模擬過程可能會發生的狀況及解決方法，像是模擬速度調高或調慢，會造成不穩定或不準確的模擬，反之；還有因硬體的效能不足而造成模擬之屏幕刷新率太慢。<br/> <strong><a href="https://www.coppeliarobotics.com/helpFiles/en/bubbleRobTutorial.htm">BubbleRob tutorial</a>:</strong><br/>   此教程主要在教如何設置bubbleRob機器人，在上學期我們有實際操作過，其中的內容包含如何建立模型、設置感測器、調整視覺感測器，建立模型包含機器人本體、車輪、支撐滑塊、障礙物，不只是設置模型外型及尺寸，還要設置模型的物理屬性；設置感測器則是為了偵測障礙物，讓機器人能順利避開障礙物；視覺感測器則是為了能夠讓我們在機器人模擬時觀察機器人前方狀況。</p>
 <p><strong><a href="https://www.coppeliarobotics.com/helpFiles/en/lineFollowingBubbleRobTutorial.htm">Line following BubbleRob tutorial</a>:</strong><br/>  在此教程中，旨在擴展BubbleRob的功能，以使BubbleRob遵循地面上的規則，也就是調整視覺感測器並設置路徑及給定程式碼，使機器人能隨著路徑運作。<br/> <strong><a href="https://www.coppeliarobotics.com/helpFiles/en/externalControllerTutorial.htm">External controller tutorial</a>:</strong><br/>   此教程說明好幾種方式能從外部控制機器人及模擬機器人，最方便的就是編寫程式碼直接附加到場景；另外還有利用編寫插件的方法，但此方法編寫程序更加複雜；第三種就是使用遠端API，此方法非常便捷也可以使用與運行真實機器人完全相同的程式碼來控制或模擬模型（例如虛擬機器人）:第四種方法是通過ROS節點，ROS與遠程API相似，是使多個分佈式進程相互連接的便捷方法；第五種是透過BlueZero（BØ）節點，與ROS類似，BlueZero是使多個分佈式進程相互連接的一種便捷方法，並且是一種輕量級的跨平台解決方案。</p>
 <p><strong>總結:</strong><br/>   最後要完成四輪機器人必須了解模擬程式的操作，包含模型的設置及各模型組合、各模型的物理特性設置、感測器設置、視覺感測器設置、外部控制器的選擇及設置、路徑程式碼設置，還有模擬時會發生的狀況處理，須達到這些基本的設置才能完成四輪機器人的設計。</p>
-<h4></h4>
-<p></p><h1>Portable system</h1>
+<h4>Portable system</h4>
 <p>1.在隨身系統下新增一個資料夾cd2020，並在cd2020下新建資料夾data，接著在data下新增資料夾py382及wscite432、portablegit。<br/> 2.進入<a href="https://www.python.org/">Python</a>官網。<br/> 3.點選Downloads下的<a href="https://www.python.org/downloads/windows/">Windows</a>，並點選<a href="https://www.python.org/downloads/release/python-382/">Latest Python 3 Release - Python 3.8.2</a>。</p>
 <p>4.找到<a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe">Windows x86-64 executable installer</a>並下載。</p>
 <p>5.開始下載，必須將pip選項取消，接著按下next並將檔案下載至資料夾py382</p>
@@ -214,7 +213,8 @@
 </tbody>
 </table>
 </div>
-</div><h1>weeks</h1>
+</div>
+<h1>weeks</h1>
 <h2>week1~5</h2>
 <p>week1 創建倉儲</p>
 <p><span>登入自己的github帳號後，創建新的倉儲cd2020。<br/></span><span>3.進入要存放資料夾。<br/></span><span>4.輸入</span><span>git clone  <span>https://github.com/s40723239/cd2020複製<span>個人倉儲至資料夾</span><span>。</span></span><span><br/>5.輸入git submodule add https://github.com/mdecourse/cmsimde.git 取得子模組資料。<br/>6.進入cmsimde，輸入python -m pip install flask_cors 更改模組。<br/>7.完成後，python wsgi.py 開始編輯倉儲(login密碼為admin)。<br/>8.編輯完成後，git status<span><span> </span>&gt;</span><span> </span>git add .<span><span> </span>&gt;</span><span> </span>git commit -m "...."<span><span> </span>&gt;</span><span> </span>git push</span></span></p>
@@ -398,7 +398,8 @@
 </tbody>
 </table>
 </div>
-</div><h2>week6~9</h2>
+</div>
+<h2>week6~9</h2>
 <h2>week10~14</h2>
 <h2>week15~18</h2>
 <p></p>
