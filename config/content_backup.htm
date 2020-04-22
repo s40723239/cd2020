@@ -32,8 +32,7 @@
 <p><a href="https://www.coppeliarobotics.com/helpFiles/en/simulationPropertiesDialog.htm">Simulation settings dialog</a><strong>:</strong><br/>   在任何機器製作完成後，都需要進行模擬測試，以確保機器能正常運作，或者測試機器的耐用性及安全性。在這章節主要說明了如何建立模擬，也教了如何調整模擬的速度，這能使我們模擬起來更有效率，接著就是模擬對話框的基本操作，其中也講解了在模擬過程可能會發生的狀況及解決方法，像是模擬速度調高或調慢，會造成不穩定或不準確的模擬，反之；還有因硬體的效能不足而造成模擬之屏幕刷新率太慢。<br/> <strong><a href="https://www.coppeliarobotics.com/helpFiles/en/bubbleRobTutorial.htm">BubbleRob tutorial</a>:</strong><br/>   此教程主要在教如何設置bubbleRob機器人，在上學期我們有實際操作過，其中的內容包含如何建立模型、設置感測器、調整視覺感測器，建立模型包含機器人本體、車輪、支撐滑塊、障礙物，不只是設置模型外型及尺寸，還要設置模型的物理屬性；設置感測器則是為了偵測障礙物，讓機器人能順利避開障礙物；視覺感測器則是為了能夠讓我們在機器人模擬時觀察機器人前方狀況。</p>
 <p><strong><a href="https://www.coppeliarobotics.com/helpFiles/en/lineFollowingBubbleRobTutorial.htm">Line following BubbleRob tutorial</a>:</strong><br/>  在此教程中，旨在擴展BubbleRob的功能，以使BubbleRob遵循地面上的規則，也就是調整視覺感測器並設置路徑及給定程式碼，使機器人能隨著路徑運作。<br/> <strong><a href="https://www.coppeliarobotics.com/helpFiles/en/externalControllerTutorial.htm">External controller tutorial</a>:</strong><br/>   此教程說明好幾種方式能從外部控制機器人及模擬機器人，最方便的就是編寫程式碼直接附加到場景；另外還有利用編寫插件的方法，但此方法編寫程序更加複雜；第三種就是使用遠端API，此方法非常便捷也可以使用與運行真實機器人完全相同的程式碼來控制或模擬模型（例如虛擬機器人）:第四種方法是通過ROS節點，ROS與遠程API相似，是使多個分佈式進程相互連接的便捷方法；第五種是透過BlueZero（BØ）節點，與ROS類似，BlueZero是使多個分佈式進程相互連接的一種便捷方法，並且是一種輕量級的跨平台解決方案。</p>
 <p><strong>總結:</strong><br/>   最後要完成四輪機器人必須了解模擬程式的操作，包含模型的設置及各模型組合、各模型的物理特性設置、感測器設置、視覺感測器設置、外部控制器的選擇及設置、路徑程式碼設置，還有模擬時會發生的狀況處理，須達到這些基本的設置才能完成四輪機器人的設計。</p>
-<h4></h4>
-<p></p><h1>Portable system</h1>
+<h4>Portable system</h4>
 <p>1.在隨身系統下新增一個資料夾cd2020，並在cd2020下新建資料夾data，接著在data下新增資料夾py382及wscite432、portablegit。<br/> 2.進入<a href="https://www.python.org/">Python</a>官網。<br/> 3.點選Downloads下的<a href="https://www.python.org/downloads/windows/">Windows</a>，並點選<a href="https://www.python.org/downloads/release/python-382/">Latest Python 3 Release - Python 3.8.2</a>。</p>
 <p>4.找到<a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe">Windows x86-64 executable installer</a>並下載。</p>
 <p>5.開始下載，必須將pip選項取消，接著按下next並將檔案下載至資料夾py382</p>
@@ -214,7 +213,57 @@
 </tbody>
 </table>
 </div>
-</div><h1>weeks</h1>
+</div>
+<h2>Assignment2</h2>
+<p>1.2確定設計過程</p>
+<p>1.2.1確定每個人的設計過程</p>
+<p>有經驗的儘管所有轉錄數據都包含與設計過程有關的信息，它們都與其他內容混合在一起，包括情況項目的目標，目標，角色，必要的技能和知識，我們首先提出通過審查相關文獻以識別“過程要素”來建立編碼框架用於構建設計過程的文件。</p>
+<p>產品開發及其活動為信息過程。收集，創建，解釋，轉換和轉移。</p>
+<p>Ulrich和<span>Eppinger</span>（<span>2012</span>）將其描述為必要的信息對於注入的最終結果以轉化當前的設計問題解決下一個問題，以降低不確定性，從而產生產出，直到最終的結果就形成了。這被建模為轉換將功能規格（輸入）轉換為人工規格（輸出）</p>
+<p>（<span>Takeda</span>，<span>Veerkamp</span>，＆<span>Yoshikawa</span>，<span>1990; Tomiyama</span>＆<span>Yoshikawa</span>，<span>1986</span>）。</p>
+<p>Browning和<span>Ramasesh</span>（<span>2007</span>）指出，採用信息處理的觀點未能捕獲完整的信息流</p>
+<p>因為對交互的了解很少。他們認為確定組織單位之間的互動，因為它們會產生依賴性</p>
+<p>建立可交付流程模式的活動之間。總之，從這個角度來看，過程建模的基本元素是</p>
+<p>用<span>IPO</span>（<span>InputeProcesseOutput</span>）表示形式概括為“信息流”以及組織單位（人員，團隊，公司，等等。）。</p>
+<p>工程設計過程模型</p>
+<p>由<span>Pahl</span>等人提出。 （<span>2007</span>年）證明了每個階段。第一階段的輸入是“任務”，結果是“規範”再次進入下一階段。這樣，繪製連接輸入和結果的連續發展階段出來。關於“任務”和“設計活動”</p>
+<p>任務和評估結果。通常，評估發生在相對在很短的時間內決定“前進，重複或下降”。因此，我們命名了這些類型的活動（評估，設計審查，登門檢查，決策<span>-</span>此時，我們有兩個編碼類別：“任務”和“事件”。總而言之，我們可以使用四個編碼對設計過程進行建模</p>
+<p>類別； “任務”，“事件”，“信息流”和“互動”，並且可以是用階段的連接來表示。至此，設計階段流程可以用“<span> inputetask</span>（設計活動）<span>eevent</span>（決策）以下內容描述瞭如何對過程元素進行編碼。</p>
+<p>信息流：信息流是在任務或事件時生成的發生。它總是伴隨著輸入和輸出。</p>
+<p>工程的輸入<span>:</span></p>
+<p>設計活動。我們對“從<span>ID</span>到<span>ED</span>的<span>3D CAD</span>數據”進行了編碼。</p>
+<p>互動：發生任務或事件時，兩組經常</p>
+<p>相互作用。例如，工業設計師檢查內部是否</p>
+<p>工程設計師建議他們通過提供空間來修改空間</p>
+<p>我們從每個轉錄的訪談數據中識別出流程要素。</p>
+<p>我們盡可能用參與者自己的話語標記他們。我們用了字段註釋作為補充數據源。在這樣做的同時，我們安排按時間順序將編碼後的元素按流程圖格式連接構建部分設計過程。該方法被廣泛採用以可視化工業流程模型（<span>Vergidis</span>，<span>Tiwari</span>和<span>Majeed</span>，<span>2008</span>年）。我們也確定了設計過程中涉及的項目類型和目標</p>
+<p>採訪數據。兩名研究人員執行了整個程序。一研究人員首先構建了部分設計流程，另一研究人員通過檢查採訪數據檢查了他們。結果，我們獲得了<span>45</span>部分公司使用<span>7-9</span>進行的部分設計過程（請參見表<span>2</span>）。</p>
+<p><img alt="" height="81" src="/images/2.png" width="473"/></p>
+<p>1.2.2確定協作產品設計流程</p>
+<p>下一步是將每個公司的設計流程整合到協作中</p>
+<p>通過“馬賽克方法”進行設計過程。我們首先收集了部分設計</p>
+<p>公司中特定項目的流程。之後，我們通過比較和合併部分過程，合併過程元素。從工業設計師那裡提取的部分過程訪談數據提供了有關工業設計活動的豐富信息，包括與工程設計師的互動行為，但信息較少純工程設計活動。工程界也是如此設計。</p>
+<p>我們將公司的工業設計師的部分流程合併到了圍繞工業設計活動重建設計流程。在同一時間，我們利用工程設計師提供的信息來補充並從工程設計方面加強設計活動。我們圍繞同一工程設計活動重新構建設計流程辦法。我們最終將這兩個設計過程合併為一個協作產品設計過程。在鑲嵌方法中，結合交叉檢查的部分過程</p>
+<p>有助於提高可靠性和通用性。這明顯減少了構建信息不完整的流程的可能性</p>
+<p>通過抵消彼此的信息。因此，“馬賽克方法”減少了構建錯誤過程的可能性。</p>
+<p>最後，我們通過合併階段元素（輸入，任務，事件和輸出）放入框中，並用相關任務將其命名（請參見圖<span>2</span>）。例如，工業設計師開始繪製各種想法根據前一階段的研究結果繪製的草圖。然後，他們選擇一個通過評估獲得一些最佳草圖。根據選擇結果，他們決定進入下一階段或重複當前階段。因此，‘理想草圖階段由“研究結果（輸入），“想法草圖（任務）”，“評估”（事件）和“最佳草圖（輸出）”。</p>
+<p><img alt="" height="211" src="/images/3.png" width="498"/></p>
+<p>1.2.3簡化流程</p>
+<p>一旦制定了每個公司的協作產品設計流程，我們對它們進行了分類，以確定其類型，目的和條件。但是，由於每個公司的流程都包含詳細的設計操作和信息，</p>
+<p>直接在公司之間進行比較並不容易。從而，我們以“流程”的概念簡化了每個公司的設計流程塊以幫助其可比性，同時保持必要的特徵。</p>
+<p>我們發現在一組小的連續階段中存在一種模式。那裡是完成所有連續階段的主要工作。完成後明確的新階段從另一項工作開始。我們將這些小階段定義為“流程塊”。其特點是初始輸入，內部迭代，決策，最終結果和不可逆的趨勢（圖<span>4</span>）。</p>
+<p>內置的流程塊中的流程從初始輸入開始，跨小範圍運行裡面的階段。迭代或反饋可能在內部的小階段之間發生大塊。最後，他們對最終結果做出最終決定。</p>
+<p>這是一個里程碑，指示該階段將跳到下一階段。</p>
+<p>例如，在圖<span>3</span>中藍色方框中，該塊的主要工作是制定執行六個小階段的設計概念。當他們在渲染階段，如果渲染結果，他們可以回到構思草圖階段</p>
+<p>對渲染評估事件不滿意。在最後階段，設計樣機，因為結果由高層管理人員確認，並且然後跳到“產品計劃會議”。</p>
+<p>兩個流程塊之間的流程幾乎沒有機會在前一個結果進入下一個塊的輸入之後反轉。</p>
+<p>跨團隊通常進行最終設計，並由每個部門的最高經理。返回上一個塊意味著它</p>
+<p>無法滿足投放市場的時間表。因此，應該有一個最高管理層關於這個問題的決定。階段之間的反向迭代或反饋在實際情況中很少發生。它發生在一個塊中的各個階段之間。因此，似乎項目之間幾乎不可能放棄階段，但可能在階段之間。</p>
+<p>我們通過其主要工作來命名流程塊。在命名塊時，</p>
+<p>我們發現，“概念設計”一詞在工程上的用法有所不同</p>
+<p>設計和工業設計。工程設計中的概念設計是關於通過開發廣泛的解決方案與產品的工作原理相關的技術概念（<span>Haik</span>＆<span>Shahin</span>，<span>2010; Kroll</span>，<span>Condoor</span>和<span>Jansson</span>，<span>2001</span>；烏爾曼，<span>2009</span>年）。但是，工業設計師在概念設計中決定產品樣式和交互的方向階段，以概念關鍵字，情緒板，想法表示草圖和用戶場景（<span>Press</span>＆<span>Cooper</span>，<span>2003; Tovey</span>＆<span>Harris</span>，<span>1999;Vredenburg</span>，<span>Isensee</span>，<span>Righi</span>和<span>Design</span>，<span>2001</span>年）。因此，我們標記了這個概念</p>
+<p><img alt="" height="503" src="/images/4.png" width="440"/></p>
+<h1>weeks</h1>
 <h2>week1~5</h2>
 <p>week1 創建倉儲</p>
 <p><span>登入自己的github帳號後，創建新的倉儲cd2020。<br/></span><span>3.進入要存放資料夾。<br/></span><span>4.輸入</span><span>git clone  <span>https://github.com/s40723239/cd2020複製<span>個人倉儲至資料夾</span><span>。</span></span><span><br/>5.輸入git submodule add https://github.com/mdecourse/cmsimde.git 取得子模組資料。<br/>6.進入cmsimde，輸入python -m pip install flask_cors 更改模組。<br/>7.完成後，python wsgi.py 開始編輯倉儲(login密碼為admin)。<br/>8.編輯完成後，git status<span><span> </span>&gt;</span><span> </span>git add .<span><span> </span>&gt;</span><span> </span>git commit -m "...."<span><span> </span>&gt;</span><span> </span>git push</span></span></p>
@@ -397,8 +446,17 @@
 </tr>
 </tbody>
 </table>
+<p>week5</p>
+<p>使用obs直播</p>
+<p>前置作業</p>
+<p>1.下載電腦作業系統對應的obs。</p>
+<p>2.通過youtube驗證，並等待24小時使其開通。</p>
+<p>3.開啟前置鏡頭，若無電腦無前置鏡頭可用ivcam來替代。</p>
+<p>obs載點:<a href="https://cdn-fastly.obsproject.com/downloads/OBS-Studio-25.0.4-Full-Installer-x64.exe" target="_blank">win10</a><span> </span><a href="https://cdn-fastly.obsproject.com/downloads/obs-mac-25.0.7.dmg" target="_blank">macOS</a><span> </span><a href="https://obsproject.com/wiki/install-instructions#linux" target="_blank">Linux</a></p>
+<p>ivcam載點:<span> </span><a href="https://www.e2esoft.com/download/ivcam-x64" target="_blank">win10</a><span> </span><a href="https://play.google.com/store/apps/details?id=com.e2esoft.ivcam" target="_blank">Android</a><span> </span><a href="https://itunes.apple.com/app/ivcam-webcam/id1164464478?mt=8" target="_blank">ios</a></p>
 </div>
-</div><h2>week6~9</h2>
+</div>
+<h2>week6~9</h2>
 <h2>week10~14</h2>
 <h2>week15~18</h2>
 <p></p>
