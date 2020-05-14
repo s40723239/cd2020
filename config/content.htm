@@ -474,8 +474,19 @@
 <li><span><span>接著安裝6.2.1  pip install leo==6.2.1</span></span></li>
 </ol>
 <h2>week10~14</h2>
-<p>week10  google用戶登陸</p>
-<p><span style="color: #808080;">登錄到您的@gm帳戶</span><br/><span style="color: #808080;">鏈接到<a href="https://console.developers.google.com">https://console.developers.google.com</a></span><br/><span style="color: #808080;">接受許可並創建Google API項目</span><br/><span style="color: #808080;">啟用Google +域API</span><br/><span style="color: #808080;">在Google + Domain API憑據下，按CONFIGURE CONSENT SCREEN按鈕</span><br/><span style="color: #808080;">選擇內部或外部用戶類型並添加新的應用程序名稱</span><br/><span style="color: #808080;">在“ API和服務”下，進入“憑據”頁面</span><br/><span style="color: #808080;">為Web應用程序創建“ OAuth 2.0客戶端ID”類型的憑據</span><br/><span style="color: #808080;">授權的JavaScript來源：https：// localhost：8443</span><br/><span style="color: #808080;">授權的重定向URI：https：// localhost：8443 / login / google /</span><br/><span style="color: #808080;">將您的客戶ID和客戶機密保存到oauth_gm.txt中</span></p>
-<p><span lang="zh-TW" style="color: #808080;">開啟leo更改config中的scrum為加上學號的txt檔案名稱，</span><span lang="zh-TW" style="color: #808080;">並且修改完成之後按下save和darwROC<br/>pip install authomatic<br/>開啟https://localhost:8443<br/>測試是否可以運作</span></p>
-<p><span lang="zh-TW" style="color: #808080;"><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/IYOVwKY_Rzg" width="560"></iframe></span></p><h2>week15~18</h2>
+<p><strong>week10  google用戶登陸</strong></p>
+<p><span style="color: #999999;">登錄到您的@gm帳戶</span><br/><span style="color: #999999;">鏈接到<a href="https://console.developers.google.com" style="color: #999999;">https://console.developers.google.com</a></span><br/><span style="color: #999999;">接受許可並創建Google API項目</span><br/><span style="color: #999999;">啟用Google +域API</span><br/><span style="color: #999999;">在Google + Domain API憑據下，按CONFIGURE CONSENT SCREEN按鈕</span><br/><span style="color: #999999;">選擇內部或外部用戶類型並添加新的應用程序名稱</span><br/><span style="color: #999999;">在“ API和服務”下，進入“憑據”頁面</span><br/><span style="color: #999999;">為Web應用程序創建“ OAuth 2.0客戶端ID”類型的憑據</span><br/><span style="color: #999999;">授權的JavaScript來源：https：// localhost：8443</span><br/><span style="color: #999999;">授權的重定向URI：https：// localhost：8443 / login / google /</span><br/><span style="color: #999999;">將您的客戶ID和客戶機密保存到oauth_gm.txt中</span></p>
+<p><span style="color: #999999;"><span lang="zh-TW">開啟leo更改config中的scrum為加上學號的txt檔案名稱，</span><span lang="zh-TW">並且修改完成之後按下save和darwROC<br/>pip install authomatic<br/>開啟https://localhost:8443<br/>測試是否可以運作</span></span></p>
+<p><span lang="zh-TW" style="color: #808080;"><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/IYOVwKY_Rzg" width="560"></iframe></span></p>
+<p><span color="#ff0000"><b>以ssh對github連線:</b></span></p>
+<p><span color="#ff0000" style="color: #999999;">(1)到y槽的portablegit將sh_for_solvespace檔案複製並修改成sh.exe</span></p>
+<p><span style="color: #999999;"><span color="#ff0000">(2)進入黑窗輸入sh和</span><code>ssh-keygen -t rsa -b 4096 -C "使用者學號"</code></span></p>
+<p><span face="monospace" style="color: #999999;">(3)下載putty連線工具箱並利用其中的putty.gen創建兩把金鑰</span></p>
+<p><span face="monospace" style="color: #999999;">(4)修改啟動器中的指令</span></p>
+<pre><span style="color: #999999;"><code>set GIT_HOME=%Disk%:\portablegit\bin\
+set GIT_SSH=%Disk%:\putty\plink.exe<br/><br/>(5)進入config中更改指令</code><code>url = git@github.com:mdecourse/cad2019.git在mdecourse的地方要改成自己的學號</code></span></pre>
+<p><span face="monospace" style="color: #999999;">(6)開啟putty.exe進去設定github.com和proxy位置其中ssh中的auth的地方必須選取剛剛創建的金鑰</span></p>
+<p><span face="monospace" style="color: #999999;">(7)用編輯器複製課程網站中的step6指令並且儲存放入.ssh資料夾之中</span></p>
+<p><span face="monospace" style="color: #999999;">(8)進入github並且在setting中的ssh將金鑰開啟並複製放入金鑰設置處</span></p>
+<p><span lang="zh-TW" style="color: #808080;"></span></p><h2>week15~18</h2>
 <p></p>
