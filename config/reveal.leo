@@ -374,6 +374,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200624114920.2">## week6~9 [link](https://s40723239.github.io/cd2020/content/week6~9.html)
 
 ### week7 四輪車的基本外型設置與以鍵盤控制四輪車
+### 直播分配assignment2工作
 ### 安裝模組
 ### week8 更新leo6.2.1
 ### week9 期中測驗
@@ -393,6 +394,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200624114923.2">## week10~14 [link](https://s40723239.github.io/cd2020/content/week10~14.html)
 
 ### week10 google用戶登陸
+### 直播分配assignment3工作
 ### week11以ssh對github連線
 ### week12 Ubuntu設定及API連線
 ### week13 IPv6 Ubuntu對外連線設定操作
@@ -431,7 +433,7 @@ vertical: body pane on the botton</t>
 ### week1 創建倉儲
 ### week2 更新py382
 ### week5 使用obs直播
-
+### 直播分配assignment1工作
 
 
 </t>
