@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
-<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
-	<global_window_position top="50" left="50" height="500" width="700"/>
-	<global_log_window_position top="0" left="0" height="0" width="0"/>
-</globals>
+<leo_header file_format="2"/>
+<globals/>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
@@ -13,28 +10,43 @@
 <v t="leo.20180902120538.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180902120538.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180902120523.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20180902120523.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180902120523.3" a="E"><vh>@clean index.html</vh>
-<v t="leo.20180902120523.4" a="E"><vh>html</vh>
+<v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
+<v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
+<v t="leo.20180902120523.3"><vh>@clean index.html</vh>
+<v t="leo.20180902120523.4"><vh>html</vh>
 <v t="leo.20180902120523.5"><vh>head</vh></v>
-<v t="leo.20180902120523.6" a="E"><vh>body</vh>
-<v t="leo.20180902120523.7" a="E"><vh>reveal div</vh>
-<v t="leo.20180902120523.8" a="E"><vh>slides div</vh>
-<v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180902120523.6"><vh>body</vh>
+<v t="leo.20180902120523.7"><vh>reveal div</vh>
+<v t="leo.20180902120523.8"><vh>slides div</vh>
+<v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20200624114903.1"><vh>assignment</vh>
+<v t="leo.20200624114903.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200624114945.1"><vh>投影片1</vh>
+<v t="leo.20200624114945.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200624114920.1"><vh>投影片2</vh>
+<v t="leo.20200624114920.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200624114923.1"><vh>投影片3</vh>
+<v t="leo.20200624114923.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200624114925.1"><vh>投影片4</vh>
+<v t="leo.20200624114925.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180902120523.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.18" a="E"><vh>導入影片</vh>
+<v t="leo.20180902120523.18"><vh>導入影片</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -326,5 +338,102 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200624114903.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624114903.2">## Assignment 
+
+### Assignment1
+[連結](https://s40723239.github.io/cd2020/content/Assignment1.html)
+
+### Assignment2
+[連結](https://s40723239.github.io/cd2020/content/Assignment2.html)
+
+### Assignment3
+[連結](https://s40723239.github.io/cd2020/content/Assignment3.html)
+
+
+
+
+</t>
+<t tx="leo.20200624114920.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624114920.2">## week6~9 [link](https://s40723239.github.io/cd2020/content/week6~9.html)
+
+### week7 四輪車的基本外型設置與以鍵盤控制四輪車
+### 安裝模組
+### week8 更新leo6.2.1
+### week9 期中測驗
+
+
+
+</t>
+<t tx="leo.20200624114923.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624114923.2">## week10~14 [link](https://s40723239.github.io/cd2020/content/week10~14.html)
+
+### week10 google用戶登陸
+### week11以ssh對github連線
+### week12 Ubuntu設定及API連線
+### week13 IPv6 Ubuntu對外連線設定操作
+### week14 IPv6 遠端控制設定
+
+
+
+</t>
+<t tx="leo.20200624114925.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624114925.2">## week15~18 [link](https://s40723239.github.io/cd2020/content/week15~18.html)
+
+### week15 FileZilla 虛擬主機文件共享設定
+### week18 期中報告影片
+
+
+</t>
+<t tx="leo.20200624114945.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624114945.2">## week1~5 [link](https://s40723239.github.io/cd2020/content/week1~5.html)
+
+### week1 創建倉儲
+### week2 更新py382
+### week5 使用obs直播
+
+
+
+</t>
 </tnodes>
 </leo_file>
