@@ -60,12 +60,12 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CMSimfly 網際內容管理
+<t tx="leo.20180902120523.10">## s40723239 期末報告投影片
 
-### KMOLab
+###2020 SPRING 協同產品設計實習
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40723239](https://s40723239.github.io/cd2020/content/index.html)
 &lt;/small&gt;
 
 [CMSimfly 網誌](./../blog/index.html)
@@ -182,7 +182,7 @@ make.start()
 <t tx="leo.20180902120523.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
-CMSimfly 網際內容管理
+s40723239 cd2020
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
