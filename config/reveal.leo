@@ -347,8 +347,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200624114903.2">## Assignment 
-
+<t tx="leo.20200624114903.2">
 ### Assignment1
 [link](https://s40723239.github.io/cd2020/content/Assignment1.html)
 
