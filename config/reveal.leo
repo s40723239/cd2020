@@ -350,13 +350,16 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200624114903.2">## Assignment 
 
 ### Assignment1
-[連結](https://s40723239.github.io/cd2020/content/Assignment1.html)
+[link](https://s40723239.github.io/cd2020/content/Assignment1.html)
 
 ### Assignment2
-[連結](https://s40723239.github.io/cd2020/content/Assignment2.html)
+[link](https://s40723239.github.io/cd2020/content/Assignment2.html)
 
 ### Assignment3
-[連結](https://s40723239.github.io/cd2020/content/Assignment3.html)
+[link](https://s40723239.github.io/cd2020/content/Assignment3.html)
+
+### Assignment all
+[link](https://s40723239.github.io/cd2020/content/Assignment%20all.html)
 
 
 
